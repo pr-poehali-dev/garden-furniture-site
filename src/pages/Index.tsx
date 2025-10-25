@@ -88,7 +88,7 @@ export default function Index() {
               ))}
             </div>
             <Button asChild className="hidden md:flex">
-              <a href="tel:+79900075060">
+              <a href="tel:+79900225212">
                 <Icon name="Phone" size={18} className="mr-2" />
                 Позвонить
               </a>
@@ -109,9 +109,9 @@ export default function Index() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
-                  <a href="tel:+79900075060">
+                  <a href="tel:+79900225212">
                     <Icon name="Phone" size={20} className="mr-2" />
-                    +7 990 007 50 60
+                    +7 990 022 52 12
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" onClick={() => scrollToSection('price')}>
@@ -258,8 +258,8 @@ export default function Index() {
                   <Icon name="Phone" className="text-primary mt-1" size={24} />
                   <div>
                     <h3 className="font-semibold mb-1">Телефон</h3>
-                    <a href="tel:+79900075060" className="text-primary hover:underline">
-                      +7 990 007 50 60
+                    <a href="tel:+79900225212" className="text-primary hover:underline">
+                      +7 990 022 52 12
                     </a>
                   </div>
                 </div>
@@ -279,7 +279,7 @@ export default function Index() {
                   Позвоните нам, и мы ответим на все ваши вопросы, поможем с выбором и рассчитаем стоимость заказа
                 </p>
                 <Button size="lg" variant="secondary" asChild className="w-full">
-                  <a href="tel:+79900075060">
+                  <a href="tel:+79900225212">
                     <Icon name="Phone" size={20} className="mr-2" />
                     Позвонить сейчас
                   </a>
